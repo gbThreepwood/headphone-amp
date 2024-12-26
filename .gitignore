@@ -29,3 +29,15 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+
+# FreeCAD
+*.pyc
+*.fcstd1
+*.FCStd1
+*.fcstd2
+*.FCStd2
+*.FCBak
+Private
+*.bak
+.DS_Store
+
