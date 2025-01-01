@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Toroidal transformers")(type "KiCad")(uri "${KIPRJMOD}/footprints/Transformers.pretty")(options "")(descr ""))
+)

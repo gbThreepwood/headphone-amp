@@ -1,0 +1,182 @@
+(footprint "ToroidalTransformer 30VA"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "230V primary, dual 15V secondary")
+	(property "Reference" "REF**"
+		(at 17.5 -35 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f00e3a68-50e4-4a80-9d13-070b15d9e2ec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "ToroidalTransformer 30VA"
+		(at 12.5 -20 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "60080687-da76-4e02-8ef7-242ed0a743f1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "09e4e59d-ded1-444b-a6be-0cf7eff8ecf8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cfd0c8d3-1241-41a5-a568-ecc9b2c936ef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cf3047e8-b6f1-404e-ad8b-b7aa996a6d91")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -40 -25)
+		(end 42.5 25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "fb92d592-9e8c-4d5e-b757-7f396006746e")
+	)
+	(fp_arc
+		(start -25 -25)
+		(mid 0 -35.355339)
+		(end 25 -25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "cae3418a-c449-4edf-9be8-b027ebe3c6db")
+	)
+	(fp_arc
+		(start 25 25)
+		(mid 0 35.355339)
+		(end -25 25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1140dec1-04d9-4773-876f-e93dd0b0bfba")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 10 -17.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a3cb2c34-8940-469e-a551-def23d833f8a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 10 10)
+		(drill 5.2)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "62c92eea-2064-4660-994b-d78f60801f04")
+	)
+	(pad "1" thru_hole circle
+		(at -35 -20)
+		(size 3 3)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fcac2cc9-654f-4910-9285-7a3f635ac5d5")
+	)
+	(pad "2" thru_hole circle
+		(at -35 20)
+		(size 3 3)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5721ee68-d9d4-46bc-91db-8cd935139252")
+	)
+	(pad "3" thru_hole circle
+		(at 37.5 -20)
+		(size 3 3)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b263ec45-4ab0-4f31-aac8-e180c20b6dc5")
+	)
+	(pad "4" thru_hole circle
+		(at 37.5 -10)
+		(size 3 3)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d807b6b3-ca60-42f0-b813-fa5b5b2cd3b0")
+	)
+	(pad "5" thru_hole circle
+		(at 37.5 10)
+		(size 3 3)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "11dd2d9b-9822-4dae-9d1a-c53a0e29b140")
+	)
+	(pad "6" thru_hole circle
+		(at 37.5 20)
+		(size 3 3)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0503e0f6-39a1-4d79-9db7-cbddb35ea0bf")
+	)
+	(model "${KIPRJMOD}/3d_models/toroidal_transformer-Assembly.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
